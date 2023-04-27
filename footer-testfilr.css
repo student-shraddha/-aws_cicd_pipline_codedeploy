@@ -1,0 +1,129 @@
+.site-footer {
+	background: #2C2C2C;
+	padding: 54px 0px 37px;
+}
+
+.site-footer .site-footer__top,
+.site-footer .site-footer__bottom {
+	display: flex;
+	flex-flow: row wrap;
+	margin:  0 -20px;
+	justify-content:flex-start;
+	padding-bottom: 50px;
+}
+.site-footer .site-footer__bottom {
+	padding-bottom: 0px;
+}
+.site-footer .footer-col {
+	flex: 0 0 25%;
+	padding: 0 20px;
+}
+.site-footer .footer-col.col-1 {
+	padding-right: 40px;
+}
+.site-footer .footer-col.col-2 {
+	padding-right: 40px;
+	padding-left: 40px;
+}
+.site-footer .footer-col.col-3 {
+	padding-right: 40px;
+	padding-left: 40px;
+}
+.site-footer .footer-col a+a {
+	margin-left: 10px;
+}
+.site-footer .footer-col a:hover svg path {
+	fill: var(--clr-light-blue);
+}
+.site-footer .footer-col.col-3 {
+	padding-left: 16px;
+	padding-right: 0px;
+}
+.site-footer .container {
+	background: transparent;
+}
+
+.site-footer .footer-col ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.site-footer .footer-col ul li a {
+	color: white;
+	font-size: 16px;
+	line-height: 22.88px;
+	text-decoration: none;
+	font-family: var(--font);
+}
+.site-footer .footer-col ul li {
+	color: white;
+	font-size: 16px;
+	line-height: 22.88px;
+	font-family: var(--font);
+}
+.site-footer .footer-col ul li {
+	padding-bottom: 20px;
+}
+
+.site-footer .footer-col ul li a:hover {
+	color: var(--clr-light-blue);
+}
+
+@media screen and (max-width: 1250px) {
+	.site-footer .footer-col.col-1 {
+	    padding-right: 20px;
+	}
+	.site-footer .footer-col.col-2 {
+	    padding-right: 20px;
+	    padding-left: 20px;
+	}
+	.site-footer .footer-col.col-3 {
+		padding-right: 20px;
+	}
+}
+
+@media screen and (max-width:  998px) {
+	.site-footer .footer-col {
+		flex: 0 0 33.33%;
+	}
+}
+
+@media screen and (max-width:  767px) {
+	.site-footer .footer-col {
+		flex: 0 0 100%;
+	}
+
+	.site-footer__bottom .footer-col.col-1 {
+		order: 5;
+		padding-top: 20px;
+	}
+
+	.site-footer__bottom .footer-col.col-4 li {
+		padding-bottom: 30px;
+	}
+
+	.site-footer__bottom .footer-col.col-3,
+	.site-footer__bottom .footer-col.col-2 {
+		padding-bottom: 10px;
+	}
+}
+
+ul.menu.menu--footer-two li.first {
+    font-weight: 600;
+}
+
+ul.menu.menu--footer li.first{
+    font-weight: 600;
+}
+
+ul.menu.menu--footer-three li.first{
+    font-weight: 600;
+}
+
+.our-members h2 {
+    font-size: 30px;
+    line-height: 38px;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
